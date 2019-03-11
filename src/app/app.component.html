@@ -1,0 +1,75 @@
+<!--The content below is only a placeholder and can be replaced.-->
+<!-- <div style="text-align:center">
+  <h1>
+    Welcome to {{ title }}!
+  </h1>
+</div> -->
+<!-- <div>
+  <app-user></app-user>
+</div>
+
+<div>
+  <app-course></app-course>
+</div>
+
+<div>
+  <app-teacher></app-teacher>
+</div> -->
+<!-- <nav>
+  <div>
+      <a routerLink="/user">user</a>
+  </div>
+  <div>
+      <a routerLink="/course">course</a>
+  </div>
+ 
+  <div>
+     <button (click)="goBack()">go back</button>
+  </div>
+</nav> -->
+
+<!--The content below is only a placeholder and can be replaced.-->
+<div style = "text-align:center">
+    <h6>
+    Welcome to {{title}}.
+    </h6>
+    <h6>  
+        {{ title | uppercase }} <br/></h6>  
+     <h6>  
+       {{ title | lowercase }} <br/></h6>  
+ </div>
+ <div>
+    <p>
+        {{componentproperty}}
+     </p>
+     <p>
+        Today's Date : {{todaydate}}
+     </p>
+ </div>
+ <!-- <div> Months :
+    <select (change) = "changemonths($event)" name = "month">
+       <option *ngFor = "let i of months">{{i}}</option>
+    </select>
+ </div>
+ <br/>
+ <div>
+    <span *ngIf = "isavailable; then condition1 else condition2">Condition is valid.</span>
+    <ng-template #condition1>Condition is valid</ng-template>
+    <ng-template #condition2>Condition is invalid</ng-template>
+ </div>
+ <button (click) = "myClickFunction($event)">Click Me</button> -->
+
+ <p>  
+    Server2 is also working fine.  
+  </p>  
+  <button class="btn btn-primary"  
+          [disabled]="allowNewServer">Add Server</button> 
+
+          <h3>{{allowNewServer}}</h3>  
+          <h3 [innerText]= "allowNewServer"></h3>  
+          <label>Server Name</label>  
+<input type="text"  
+       class="form-control"  
+       (input)="OnUpdateServerName($event)">  
+<p>{{serverName}}</p> 
+<!-- <router-outlet></router-outlet> -->
